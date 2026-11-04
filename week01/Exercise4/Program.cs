@@ -40,7 +40,7 @@ class Program
         int largest = numbers[0];
         foreach (int item in numbers)
         {
-            if (number > largest)
+            if (item > largest)
             {
                 largest = item;
             }
